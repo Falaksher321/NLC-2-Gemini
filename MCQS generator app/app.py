@@ -11,7 +11,7 @@ st.set_page_config(page_title="Q&A Demo")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Configuration (replace with actual values)
-API_KEY = os.getenv("AIzaSyAc1Fe3RUkfj6VcdW6LMaWhzP2rV_lb9XE")
+API_KEY = os.getenv("API_KEY")
 
 # FUNCTION TO LOAD GEMINI PRO MODEL AND GET RESPONSES
 model = genai.GenerativeModel('gemini-pro')
